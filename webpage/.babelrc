@@ -1,0 +1,28 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "browsers": [
+                        "last 2 versions",
+                        "safari >= 7"
+                    ]
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        "transform-async-to-promises",
+        [
+            "transform-runtime",
+            {
+                "helpers": false,
+                "polyfill": false,
+                "regenerator": false
+            }
+        ],
+        "transform-vue-jsx"
+    ],
+    "comments": false
+}
