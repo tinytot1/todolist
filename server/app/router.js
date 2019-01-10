@@ -5,5 +5,9 @@
  */
 module.exports = app => {
   const { router, controller } = app;
-  router.get('/', controller.home.index);
+
+  // 登录
+  router.get('/data/isLogin', controller.user.isLogin);
+  router.get('/data/login', controller.user.login);
+  router.post('/data/register', controller.user.register);
 };

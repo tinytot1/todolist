@@ -4,9 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <title>todolist</title>
+  <link rel="stylesheet" href="./app.css?_v=${version}">
+  <link rel="stylesheet" href="./libs/element/index.css">
+  
+  <script src="./libs/jquery/jquery-3.3.1.min.js"></script>
+  <script src="./libs/axios/axios.js"></script>
+  <script src="./libs/vue/vue.js"></script>
+  <script src="./libs/zl/zl.js"></script>
+  <script src="./libs/element/index.js"></script>
 </head>
 <body>
-  
+  <div id="app">
+    <zl-loader :url="url"></zl-loader>
+  </div>
+  <script src="./index.js?_v=${version}"></script>
+</body>
 </body>
 </html>
