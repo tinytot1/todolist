@@ -23,7 +23,7 @@ module.exports = appInfo => {
     port: 3306,
     database: 'todolist',
     username: 'root',
-    password: 'zhang@1995092',
+    password: 'Zh@19950920',
     define: {
       freezeTableName: true,
       underscored: true,
