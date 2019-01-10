@@ -40,7 +40,7 @@ class AppLaunch {
 
   // 插件启动完毕
   async willReady() {
-    // await this.app.model.sync({ alert: true });
+    await this.app.model.sync({ alert: true });
   }
 
   // worker 准备就绪
